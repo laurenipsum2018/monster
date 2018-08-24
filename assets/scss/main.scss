@@ -1,0 +1,10 @@
+// Base
+@import "base/variables"; // Colours
+@import "base/animations";
+
+// Components
+@import "components/monster";
+
+body {
+  background-color: $navy;
+}
