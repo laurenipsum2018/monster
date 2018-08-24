@@ -4,7 +4,10 @@
 
 // Components
 @import "components/monster";
+@import "components/ground";
 
 body {
   background-color: $navy;
+  width: 100%;
+  height: 100%;
 }
