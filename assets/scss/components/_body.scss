@@ -1,0 +1,80 @@
+.body {
+  display: inline-block;
+  position: absolute;
+  width: 500px;
+  height: 280px;
+  border-radius: 28%;
+  background-color: $brown-light;
+  z-index: 20;
+
+  .windows {
+    display: block;
+    .window-1 {
+      position: absolute;
+      width: 50px;
+      height: 100px;
+      background-color: $navy;
+      left: 50px;
+      top: 80px;
+      border-radius: 40%;
+    }
+    .window-2 {
+      position: absolute;
+      width: 50px;
+      height: 100px;
+      background-color: $navy;
+      left: 120px;
+      top: 80px;
+      border-radius: 40%;
+    }
+    .window-3 {
+      position: absolute;
+      width: 50px;
+      height: 100px;
+      background-color: $navy;
+      left: 190px;
+      top: 80px;
+      border-radius: 40%;
+    }
+    .window-4 {
+      position: absolute;
+      width: 50px;
+      height: 100px;
+      background-color: $navy;
+      left: 260px;
+      top: 80px;
+      border-radius: 40%;
+    }
+    .window-5 {
+      position: absolute;
+      width: 50px;
+      height: 100px;
+      background-color: $navy;
+      left: 330px;
+      top: 80px;
+      border-radius: 40%;
+    }
+    .window-6 {
+      position: absolute;
+      width: 50px;
+      height: 100px;
+      background-color: $navy;
+      left: 400px;
+      top: 80px;
+      border-radius: 40%;
+    }
+  }//@end windows
+
+  .tail {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 60px;
+    border-radius: 50% 50%;
+    background-color: $brown-light;
+    z-index: 19;
+    margin: 0 0;
+    top: 100px;
+    right: 120px;
+  } //@end tail
+}//@end body
