@@ -1,7 +1,7 @@
 .head-container {
   position: relative;
   display: inline-block;
-  left: 470px;
+  left: 570px;
   top: 70px;
   z-index: 1;
 
@@ -15,8 +15,9 @@
       height: 40px;
       border-radius: 50% 50% 50% 50% / 30% 70%;
       background-color: $yellow;
-      left: 110px;
-      top: 40px;
+      left: 90px;
+      top: 50px;
+      animation: blink 3s infinite;
 
       .pupil {
         position: relative;
